@@ -1,20 +1,13 @@
 /*
-vim-clutch: where elitists go to die
 
-what is it:
+vim-clutch.ino: a hardware pedal for hyperoptimized vi-style text editing
 
-  - it's a hardware footpedal for (n)vim that goes into insert mode when you
-    press it and returns to normal mode when you release it
-  - so just press down to type real words in vim
-  - literally the epitome of overengineering
-  - I hate myself for writing it
-  - like you'll never be able to type 'i' again
-  - works regardless of keyboard layout
+run it on an Arduino-compatible board with HID support, e.g.
 
-how to build it:
+  - Arduino/Genuino Micro and other 32u4-based boards
+  - Arduino/Genuino Due
+  - Arduino/Genuino Zero
 
-  - flash this to an arduino micro
-  - append "append_vimrc.txt" to your vimrc (for vim) or init.vim (for nvim)
 */
 
 #include <Bounce2.h>
